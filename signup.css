@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&display=swap');
+body {
+    font-family: "lato", serif;
+    font-weight: 400;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outerbox{
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+    width: 100vw;
+    height: 100vh;
+}
+.innerbox{
+    /* background-color: #ffffff09; */
+    /* backdrop-filter:blur(4px); */
+    background: linear-gradient(to top left, #b4b3b3f1, #ffffff33);
+    width: 400px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: 2;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #2773a5;
+}
+.signup{
+    /* padding: 20px 20px 0; */
+}
+.signup h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+.signup p{
+    font-size: 0.9rem;
+    color: #333;
+}
+.signupbody{
+    margin: 20px 0;
+    /* padding: 20px; */
+}
+.signupbody p{
+    margin: 10px 0;
+}
+.signupbody p label{
+    display: block;
+    font-weight: bold;
+}
+.signupbody p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 2px;
+}
+#c1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to left top, aquamarine, slategrey);
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    z-index: 0;
+}
+#c2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    right: 50px;
+    background: linear-gradient(to left top, aquamarine, slategrey);
+}
+#submit{
+    background-color: #327282;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor:pointer;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out;
+    transition-delay: 1s; */
+    
+}
+    
+#submit:hover{
+    background-color:#1a4550 ;
+    width: 100%;
+    height: 50px;
+    transition: all 1s ease 0s;
+    
+
+
+}
+.signupfooter p{
+    color: #272424;
+    text-align: center;
+}
+.signupfooter p a{
+    color: #1a4550 ;
+    text-decoration: none;
+}
+@media screen and (max-width:768px) {
+    .innerbox{
+        width: 300px;
+    }
+    #c1{
+        position: absolute;
+        left: 17px;
+        top: 119px;
+    }
+    #c2{
+        position: absolute;
+        right: 17px;
+        bottom: 238px;
+    }
+    
+
+    
+}
+@media screen and (max-width:400px) {
+    .innerbox{
+        width: 290px;
+    }
+    #c1{
+        position: absolute;
+        left: 22px;
+        top: 37px;
+    }
+    #c2{
+        position: absolute;
+        right: 12px;
+        bottom: 96px;
+    }
+    
+}
