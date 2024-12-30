@@ -85,6 +85,7 @@ body {
     border-radius: 5px;
     color: white;
     cursor:pointer;
+    transition: all 1s ease 0s;
     /* transition-property: all;
     transition-duration: 1s;
     transition-timing-function:ease-in-out;
